@@ -1,0 +1,20 @@
+cout << "\t\t\t\t======================" << endl;
+    cout << "\t\t\t\tBank Management System" << endl;
+    cout << "\t\t\t\t======================" << endl;
+    cout << "\n\n\n";
+    cout << "Enter 1 for account creation and 2 for login" << endl;
+    cin >> number;
+
+
+    void display_operations() {
+    cout << "Available Operations-->" << endl;
+    cout << "1. Update an account\n"
+         << "2. Remove an account\n"
+         << "3. Deposit Money\n"
+         << "4. Withdraw Money\n"
+         << "5. Check Balance\n"
+         << "6. Make a Recurring Deposit\n"
+         << "7. Make a Fixed Deposit\n"
+         << "8. Exit Application\n"
+         << endl;
+}
